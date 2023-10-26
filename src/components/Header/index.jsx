@@ -18,7 +18,7 @@ const Header = () => {
                     <i className="fab fa-youtube"></i>
                 </div>
 
-                <a href="#">
+                <a href="/">
                     <img
                         width="100%"
                         src={Image_logo}
@@ -33,6 +33,7 @@ const Header = () => {
                     name="theme"
                     id="theme"
                 >
+                    <a href="/historia">X</a>
                     <i className={lightMode ? "fas fa-moon" : "fas fa-sun"}></i>
                 </section>
             </header>
