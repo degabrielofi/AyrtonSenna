@@ -11,7 +11,7 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route path="/historia" element={<History />} />
+                <Route path="/history" element={<History />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>

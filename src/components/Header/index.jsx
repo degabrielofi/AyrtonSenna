@@ -1,5 +1,5 @@
 import React from "react";
-import Image_logo from "../../assets/images/logo-white.png";
+import Image_logo from "../../assets/images/signature.png";
 import useLocalStorage from "use-local-storage";
 import { Menu } from "./style";
 
