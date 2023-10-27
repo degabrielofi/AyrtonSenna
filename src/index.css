@@ -92,8 +92,3 @@ main .about h1::before {
     color: #f7c411;
     width: 5rem;
 }
-
-svg {
-    display: block;
-    position: fixed;
-}

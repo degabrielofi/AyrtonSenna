@@ -1,61 +1,65 @@
 import styled from "styled-components";
 import Aspas from "../../assets/images/aspas.png";
 
-export const Content = styled.div`
-    z-index: 1;
+export const Content = styled.div``;
 
-    .mention {
-        position: relative;
-        width: 100%;
-    }
-
-    .mention .text {
-        margin: 10% 15%;
+export const Mention = styled.div`
+    .text {
+        margin: 5% 15%;
         position: absolute;
     }
 
-    .mention .text h3 {
+    .text h3 {
+        color: #fff;
         font-size: 45px;
     }
 
-    .mention .text .logo img {
-        width: 15px;
+    .text .logo {
+        margin-left: 20%;
+        width: 20%;
     }
 
-    .mention img {
+    .background {
         width: 100%;
         height: 100%;
     }
 
-    .mention .text h3::before {
-        width: 10%;
-        content: "";
+    .text h3:before {
+        margin: -10% -10% 0%;
+        width: 5%;
+        content: url(${Aspas});
         position: absolute;
         transform: rotate(180deg);
-        background: url(${Aspas});
+
         display: block;
     }
 
-    .mention .text h3::after {
-        width: 10%;
-        content: "";
+    .text h3:after {
+        margin: -10% 50% 0%;
+        width: 5%;
+        content: url(${Aspas});
         position: absolute;
-        background: url(${Aspas});
         display: block;
     }
+`;
 
-    .numbersOfSenna img {
+export const numbersOfSenna = styled.div`
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        position: relative;
+        top: 5rem;
+        float: right;
+        right: 50%;
+    }
+
+    .content .AyrtonSenna {
         width: 30%;
         margin-top: 1rem;
         padding: 1rem;
         float: left;
         position: absolute;
-    }
-
-    .numbersOfSenna .content {
-        position: relative;
-        top: 5rem;
-        float: right;
-        right: 50%;
     }
 `;

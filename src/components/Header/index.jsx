@@ -33,7 +33,7 @@ const Header = () => {
                     name="theme"
                     id="theme"
                 >
-                    <a href="/historia">X</a>
+                    <a href="/history">X</a>
                     <i className={lightMode ? "fas fa-moon" : "fas fa-sun"}></i>
                 </section>
             </header>
