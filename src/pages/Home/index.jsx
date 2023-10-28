@@ -1,7 +1,7 @@
 import React from "react";
 import Background from "../../components/Background";
 import Header from "../../components/Header";
-import { Content, Mention, numbersOfSenna } from "./style";
+import { Content, Mention, NumbersOfSenna } from "./style";
 import AyrtonSenna from "../../assets/images/AyrtonSenna.png";
 import Image_logo from "../../assets/images/signature.png";
 import Track from "../../assets/images/bgTrack.jpg";
@@ -32,22 +32,22 @@ const Home = () => {
                     />
                 </Mention>
 
-                <numbersOfSenna>
+                <NumbersOfSenna>
+                    <img
+                        src={AyrtonSenna}
+                        alt="Ayrton Senna"
+                        className="AyrtonSenna"
+                    />
                     <div className="content">
-                        <img
-                            src={AyrtonSenna}
-                            alt="Ayrton Senna"
-                            className="AyrtonSenna"
-                        />
-                        {/*  <div className="numbers">
+                        <div className="numbers">
                             <h1>SENNA EM NÚMEROS</h1>
                             <ul>
                                 <li>
                                     <span className="icon">
-                                        <i></i>
+                                        <i className="fas fa-trophy"></i>
                                     </span>
                                     <span className="text">
-                                        <strong>161</strong>GPS DISPUTADOS
+                                        <strong>161</strong> GPS DISPUTADOS
                                     </span>
                                 </li>
                                 <li>
@@ -55,7 +55,7 @@ const Home = () => {
                                         <i></i>
                                     </span>
                                     <span className="text">
-                                        <strong>65</strong>POLE POSITIONS
+                                        <strong>65</strong> POLE POSITIONS
                                     </span>
                                 </li>
                                 <li>
@@ -63,7 +63,7 @@ const Home = () => {
                                         <i></i>
                                     </span>
                                     <span className="text">
-                                        <strong>19</strong>FAST LAPS
+                                        <strong>19</strong> FAST LAPS
                                     </span>
                                 </li>
                                 <li>
@@ -71,29 +71,29 @@ const Home = () => {
                                         <i></i>
                                     </span>
                                     <span className="text">
-                                        <strong>2982</strong>VOLTAS LIDERADAS
+                                        <strong>2982</strong> VOLTAS LIDERADAS
                                     </span>
                                 </li>
                                 <li>
                                     <span className="icon">
-                                        <i></i>
+                                        <i className="fas fa-flag-checkered "></i>
                                     </span>
                                     <span className="text">
-                                        <strong>41</strong>VITÓRIAS
+                                        <strong>41</strong> VITÓRIAS
                                     </span>
                                 </li>
                                 <li>
                                     <span className="icon">
-                                        <i></i>
+                                        <i className="fas fa-trophy"></i>
                                     </span>
                                     <span className="text">
-                                        <strong>3X</strong>CAMPEÃO MUNDIAL
+                                        <strong>3X</strong> CAMPEÃO MUNDIAL
                                     </span>
                                 </li>
                             </ul>
-                        </div> */}
+                        </div>
                     </div>
-                </numbersOfSenna>
+                </NumbersOfSenna>
             </main>
 
             {/*   <Background /> */}
