@@ -40,54 +40,77 @@ const Home = () => {
                     />
                     <div className="content">
                         <div className="numbers">
-                            <h1>SENNA EM NÚMEROS</h1>
+                            <div className="title">
+                                <h1>SENNA EM NÚMEROS</h1>
+                                <br />
+                                <i></i>
+                            </div>
                             <ul>
+                                <br />
                                 <li>
                                     <span className="icon">
-                                        <i className="fas fa-trophy"></i>
-                                    </span>
-                                    <span className="text">
-                                        <strong>161</strong> GPS DISPUTADOS
+                                        <div className="circle">
+                                            <i className="fas fa-route"></i>
+                                        </div>
+                                        <span className="text">
+                                            <strong>161</strong> GPS DISPUTADOS
+                                        </span>
                                     </span>
                                 </li>
+                                <br />
                                 <li>
                                     <span className="icon">
-                                        <i></i>
-                                    </span>
-                                    <span className="text">
-                                        <strong>65</strong> POLE POSITIONS
+                                        <div className="circle">
+                                            <i className="far fa-arrow-alt-circle-up"></i>
+                                        </div>
+                                        <span className="text">
+                                            <strong>65</strong> POLE POSITIONS
+                                        </span>
                                     </span>
                                 </li>
+                                <br />
                                 <li>
                                     <span className="icon">
-                                        <i></i>
-                                    </span>
-                                    <span className="text">
-                                        <strong>19</strong> FAST LAPS
+                                        <div className="circle">
+                                            <i className="far fa-clock"></i>
+                                        </div>
+                                        <span className="text">
+                                            <strong>19</strong> FAST LAPS
+                                        </span>
                                     </span>
                                 </li>
+                                <br />
                                 <li>
                                     <span className="icon">
-                                        <i></i>
-                                    </span>
-                                    <span className="text">
-                                        <strong>2982</strong> VOLTAS LIDERADAS
+                                        <div className="circle">
+                                            <i className="fas fa-medal"></i>
+                                        </div>
+                                        <span className="text">
+                                            <strong>2982</strong> VOLTAS
+                                            LIDERADAS
+                                        </span>
                                     </span>
                                 </li>
+                                <br />
                                 <li>
                                     <span className="icon">
-                                        <i className="fas fa-flag-checkered "></i>
-                                    </span>
-                                    <span className="text">
-                                        <strong>41</strong> VITÓRIAS
+                                        <div className="circle">
+                                            <i className="fas fa-flag-checkered "></i>
+                                        </div>
+                                        <span className="text">
+                                            <strong>41</strong> VITÓRIAS
+                                        </span>
                                     </span>
                                 </li>
+                                <br />
                                 <li>
                                     <span className="icon">
-                                        <i className="fas fa-trophy"></i>
-                                    </span>
-                                    <span className="text">
-                                        <strong>3X</strong> CAMPEÃO MUNDIAL
+                                        <div className="circle">
+                                            <i className="fas fa-trophy"></i>
+                                        </div>
+                                        <span className="text">
+                                            <strong>3X</strong> CAMPEÃO MUNDIAL
+                                        </span>
                                     </span>
                                 </li>
                             </ul>

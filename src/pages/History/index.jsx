@@ -6,8 +6,13 @@ import Senna from "../../assets/images/AyrtonSennaHistory.jpeg";
 const History = () => {
     return (
         <Container>
-            <Header></Header>
-            <img className="AyrtonSenna" src={Senna} alt="" />
+            <Header />
+            <div className="title">
+                <img className="AyrtonSenna" src={Senna} alt="" />
+                <h1>O PILOTO</h1>
+
+                <i></i>
+            </div>
         </Container>
     );
 };

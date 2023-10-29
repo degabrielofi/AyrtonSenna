@@ -12,12 +12,12 @@ export const Mention = styled.div`
 
     .text h3 {
         color: #fff;
-        font-size: 45px;
+        font-size: 4rem;
     }
 
     .text .logo {
         margin-left: 20%;
-        width: 20%;
+        width: 30%;
     }
 
     .background {
@@ -26,7 +26,7 @@ export const Mention = styled.div`
     }
 
     .text h3:before {
-        margin: -10% -10% 0%;
+        margin: -5% -10% 0%;
         width: 5%;
         content: url(${Aspas});
         position: absolute;
@@ -46,30 +46,26 @@ export const Mention = styled.div`
 
 export const NumbersOfSenna = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    flex-wrap: nowrap;
-    position: relative;
-    top: 2rem;
-    float: right;
-    right: 40%;
 
-    .content .AyrtonSenna {
-        width: 30%;
-        margin-top: 1rem;
-        padding: 1rem;
-        float: left;
-        position: absolute;
+    .content .numbers .title {
+        width: 100%;
     }
 
-    .content .numbers h1 {
-        width: 100%;
-        margin-bottom: 1.5rem;
+    .content .numbers .title h1 {
+        position: absolute;
+        padding-left: 1rem;
+        letter-spacing: 0.2rem;
         line-height: 1rem;
-        font-weight: 700;
-        font-size: 30px;
+        font-size: 5rem;
         color: #09447c;
-        background: url(${detailYellow}) center bottom/100% 2.5vw no-repeat;
+    }
+
+    .content .numbers .title i {
+        margin-top: -1.5rem;
+        z-index: -10;
+        content: url(${detailYellow});
     }
 
     .content .numbers ul {
@@ -77,19 +73,27 @@ export const NumbersOfSenna = styled.div`
     }
 
     .content .numbers ul li .icon {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .content .numbers ul li .icon .circle {
+        width: auto;
         border: 2px solid #09447c;
         border-radius: 100%;
         margin-right: 1rem;
     }
 
-    .content .numbers ul li .icon i {
+    .content .numbers ul li .icon .circle i {
+        font-size: 25px;
         color: #fff;
     }
 
     .content .numbers ul li .text {
-        line-height: 0 1rem;
-        font-weight: 600;
         font-size: 25px;
+        letter-spacing: 0.1rem;
     }
 
     .content .numbers ul li .text strong {
