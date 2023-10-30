@@ -32,3 +32,5 @@ export const Container = styled.div`
         content: url(${detailGeneral});
     }
 `;
+
+export const FirstYears = styled.div``;
