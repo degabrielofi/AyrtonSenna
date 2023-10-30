@@ -1,8 +1,39 @@
 import styled from "styled-components";
 import Aspas from "../../assets/images/aspas.png";
 import detailYellow from "../../assets/images/detailYellow.jpg";
+import detailGeneral from "../../assets/images/detail-general.png";
 
-export const Content = styled.div``;
+export const Content = styled.div`
+    .title_rotative {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .title_rotative .AyrtonSenna {
+        width: 100%;
+        height: 100%;
+        filter: blur(2px);
+        z-index: -10;
+    }
+
+    .title_rotative h1 {
+        position: absolute;
+        letter-spacing: 0.2rem;
+        line-height: 1rem;
+        font-size: 5rem;
+        color: #fff;
+    }
+
+    .title_rotative i {
+        width: 35%;
+        margin-top: -40%;
+        z-index: -10;
+        content: url(${detailGeneral});
+    }
+`;
 
 export const Mention = styled.div`
     .text {
