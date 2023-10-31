@@ -1,0 +1,26 @@
+{
+    "Children": {
+        "text": " Filho do empresário Milton Guirado Theodoro da Silva e de Neyde Joanna Senna da Silva, Ayrton Senna nasceu em 21 de março de 1960, na Maternidade de São Paulo, no bairro de Cerqueira César, São Paulo. A mãe de Senna era neta de imigrantes italianos e o seu pai era filho de uma espanhola (de Tíjola, em Almeria) com um paulista. Morou no Jardim São Paulo dos quatro aos doze anos, mudando-se posteriormente para o Tremembé. Desde novo ele se interessava por automóveis.",
+        "textTwo": "Foi incentivado pelo pai, um entusiasta das competições automobilísticas, que montou o primeiro kart de Senna quando este tinha quatro anos, e que tinha um motor de máquina de cortar grama. Aos nove anos, já conduzia jipes pelas estradas dentro das propriedades rurais de Milton. Na televisão, gostava de assistir o anime Speed Racer, sobre um piloto de corridas."
+    },
+
+    "Kart": {
+        "text": "Ayrton Senna começou sua carreira no kart aos treze anos e obteve sua primeira vitória oficial em julho de 1973 no Kartódromo de Interlagos. Ele conquistou diversos títulos no kart, incluindo campeonatos brasileiros e sul-americanos, além de ter sido vice-campeão mundial em 1979 e 1980. Senna também fez história no kartismo brasileiro ao conseguir quatro vitórias em um único dia em 1978. Em 1981, ele se mudou para a Europa e ganhou o campeonato inglês de Fórmula Ford 1600, mas enfrentou dificuldades para encontrar patrocinadores. Ele temporariamente abandonou o automobilismo, mas retornou em 1982 e conquistou os campeonatos europeu e britânico de Fórmula Ford 2000. Nesse mesmo ano, ele adotou o sobrenome de solteira de sua mãe, Senna.",
+        "textTwo": "Em 1983, Senna venceu o campeonato inglês de Fórmula 3 e realizou seus primeiros testes com carros de Fórmula 1. Sua performance impressionou as equipes de Fórmula 1, e ele rapidamente ganhou prestígio no esporte a motor. Essa trajetória marcou o início da carreira de sucesso de Ayrton Senna no automobilismo."
+    },
+
+    "Formula1": {
+        "Toleman": {
+            "text": ""
+        },
+        "Lotus": {
+            "text": ""
+        },
+        "McLaren": {
+            "text": ""
+        },
+        "Williams": {
+            "text": ""
+        }
+    }
+}

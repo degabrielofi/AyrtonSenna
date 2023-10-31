@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Background from "../../components/Background";
 import Header from "../../components/Header";
+import useLocalStorage from "use-local-storage";
 import { Content, Mention, NumbersOfSenna } from "./style";
 import AyrtonSenna from "../../assets/images/AyrtonSenna.png";
 import Image_logo from "../../assets/images/signature.png";
@@ -8,6 +9,9 @@ import Track from "../../assets/images/bgTrack.jpg";
 import Banner from "../../assets/images/banner.jpg";
 
 const Home = () => {
+    const [lightMode, setLightMode] = useLocalStorage(
+        "theme" ? "light-mode" : "dark-mode"
+    );
     const [loopNum, setLoopNum] = useState(0);
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [text, setText] = useState("");

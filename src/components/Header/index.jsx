@@ -1,13 +1,8 @@
 import React from "react";
 import Image_logo from "../../assets/images/signature.png";
-import useLocalStorage from "use-local-storage";
 import { Menu } from "./style";
 
 const Header = () => {
-    const [lightMode, setLightMode] = useLocalStorage(
-        "theme" ? "light-mode" : "dark-mode"
-    );
-
     return (
         <Menu>
             <header>
@@ -27,15 +22,7 @@ const Header = () => {
                     />
                 </a>
 
-                <section
-                    className="button-dark"
-                    onClick={() => setLightMode(!lightMode)}
-                    name="theme"
-                    id="theme"
-                >
-                    <a href="/history">X</a>
-                    <i className={lightMode ? "fas fa-moon" : "fas fa-sun"}></i>
-                </section>
+                <a href="/history">História</a>
             </header>
         </Menu>
     );
