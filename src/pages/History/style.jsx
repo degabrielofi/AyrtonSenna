@@ -114,3 +114,19 @@ export const StartOfKart = styled.div`
         margin-top: -5rem;
     }
 `;
+
+export const Toleman = styled.div`
+    .title_images {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title_images .icon {
+        width: 20%;
+    }
+
+    .title_images .car {
+        width: 15%;
+    }
+`;

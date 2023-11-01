@@ -1,11 +1,13 @@
 import React from "react";
-import { Container, FirstYears, StartOfKart } from "./style";
+import { Container, FirstYears, StartOfKart, Toleman } from "./style";
 import Header from "components/Header";
 import Senna from "assets/images/AyrtonSennaHistory.jpeg";
 import SennaChildren from "assets/images/Senna's Children.png";
 import StartKart from "assets/images/StartOfKart.png";
 import data from "assets/data/text.json";
 import useLocalStorage from "use-local-storage";
+import TolemanIcon from "assets/images/toleman_logo.png";
+import TolemanCar from "assets/images/Senna's Toleman.png";
 
 const History = () => {
     const [lightMode, setLightMode] = useLocalStorage(
@@ -59,6 +61,17 @@ const History = () => {
                     </p>
                 </div>
             </StartOfKart>
+
+            <Toleman>
+                <div className="title_images">
+                    <img
+                        src={TolemanIcon}
+                        alt="Icon of Toleman"
+                        className="icon"
+                    />
+                    <img src={TolemanCar} alt="Senna's car" className="car" />
+                </div>
+            </Toleman>
         </Container>
     );
 };
