@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, FirstYears, StartOfKart, Toleman } from "./style";
+import {
+    Container,
+    FirstYears,
+    StartOfKart,
+    Toleman,
+    Lotus,
+    McLaren,
+    Williams,
+} from "./style";
 import Header from "components/Header";
 import Senna from "assets/images/AyrtonSennaHistory.jpeg";
 import SennaChildren from "assets/images/Senna's Children.png";
@@ -8,6 +16,12 @@ import data from "assets/data/text.json";
 import useLocalStorage from "use-local-storage";
 import TolemanIcon from "assets/images/toleman_logo.png";
 import TolemanCar from "assets/images/Senna's Toleman.png";
+import LotusIcon from "assets/images/lotus_logo.png";
+import LotusCar from "assets/images/Senna's Lotus.png";
+import McLarenIcon from "assets/images/mclaren_logo.png";
+import McLarenCar from "assets/images/Senna's McLaren.png";
+import WilliamsIcon from "assets/images/williams_logo.png";
+import WilliamsCar from "assets/images/Senna's Williams.png";
 
 const History = () => {
     const [lightMode, setLightMode] = useLocalStorage(
@@ -63,15 +77,83 @@ const History = () => {
             </StartOfKart>
 
             <Toleman>
-                <div className="title_images">
+                <section className="images">
                     <img
                         src={TolemanIcon}
                         alt="Icon of Toleman"
                         className="icon"
                     />
                     <img src={TolemanCar} alt="Senna's car" className="car" />
-                </div>
+                </section>
+
+                <section className="text">
+                    <p>
+                        {data.Formula1.Toleman.text} <br />
+                        <br />
+                        {data.Formula1.Toleman.textTwo} <br />
+                        <br />
+                        {data.Formula1.Toleman.textThree}
+                    </p>
+                </section>
             </Toleman>
+            <Lotus>
+                <section className="images">
+                    <img
+                        src={LotusIcon}
+                        alt="Icon of Toleman"
+                        className="icon"
+                    />
+                    <img src={LotusCar} alt="Senna's car" className="car" />
+                </section>
+
+                <section className="text">
+                    <p>
+                        {data.Formula1.Lotus.text} <br />
+                        <br />
+                        {data.Formula1.Lotus.textTwo} <br />
+                        <br />
+                        {data.Formula1.Lotus.textThree}
+                    </p>
+                </section>
+            </Lotus>
+            <McLaren>
+                <section className="images">
+                    <img
+                        src={McLarenIcon}
+                        alt="Icon of Toleman"
+                        className="icon"
+                    />
+                    <img src={McLarenCar} alt="Senna's car" className="car" />
+                </section>
+
+                <section className="text">
+                    <p>
+                        {data.Formula1.Lotus.text} <br />
+                        <br />
+                        {data.Formula1.Lotus.textTwo} <br />
+                        <br />
+                        {data.Formula1.Lotus.textThree}
+                    </p>
+                </section>
+            </McLaren>
+            <Williams>
+                <section className="images">
+                    <img
+                        src={WilliamsIcon}
+                        alt="Icon of Toleman"
+                        className="icon"
+                    />
+                    <img src={WilliamsCar} alt="Senna's car" className="car" />
+                </section>
+
+                <section className="text">
+                    <p>
+                        {data.Formula1.Williams.text} <br />
+                        <br />
+                        {data.Formula1.Williams.textTwo}
+                    </p>
+                </section>
+            </Williams>
         </Container>
     );
 };

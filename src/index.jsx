@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
 import History from "./pages/History";
+import Idol from "pages/Idol";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/history" element={<History />} />
+                <Route path="/idol" element={<Idol />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>

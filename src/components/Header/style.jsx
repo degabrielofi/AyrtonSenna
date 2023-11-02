@@ -64,4 +64,7 @@ export const Menu = styled.div`
     header ul .button {
         display: none;
     }
+
+    .links {
+    }
 `;

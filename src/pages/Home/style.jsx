@@ -42,6 +42,7 @@ export const Mention = styled.div`
     }
 
     .text h3 {
+        font-family: "League Gothic", sans-serif;
         color: #fff;
         font-size: 4rem;
     }
@@ -85,6 +86,7 @@ export const NumbersOfSenna = styled.div`
     }
 
     .content .numbers .title h1 {
+        font-family: "League Gothic", sans-serif;
         position: absolute;
         padding-left: 1rem;
         letter-spacing: 0.2rem;
@@ -123,11 +125,13 @@ export const NumbersOfSenna = styled.div`
     }
 
     .content .numbers ul li .text {
+        font-family: "League Gothic", sans-serif;
         font-size: 25px;
         letter-spacing: 0.1rem;
     }
 
     .content .numbers ul li .text strong {
+        font-family: "League Gothic", sans-serif;
         color: #09447c;
     }
 

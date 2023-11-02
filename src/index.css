@@ -1,23 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Teko:wght@500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "League Gothic", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
-.dark-mode,
 body {
     background-color: #111111;
-    color-text: #ffff;
-    button-background-color: #279de0;
-    text-color-principal: #fff;
-}
-
-.light-mode {
-    background-color: #fff;
-    --text-color: #1a1a1a;
-    --button-background-color: #9b8afb;
-    --text-color-principal: #111111;
 }

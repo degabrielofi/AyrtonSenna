@@ -20,6 +20,7 @@ export const Container = styled.div`
     }
 
     .title_page h1 {
+        font-family: "League Gothic", sans-serif;
         position: absolute;
         letter-spacing: 0.2rem;
         line-height: 1rem;
@@ -43,6 +44,7 @@ export const FirstYears = styled.div`
     }
 
     .title h1 {
+        font-family: "League Gothic", sans-serif;
         position: absolute;
         padding-left: 1rem;
         letter-spacing: 0.2rem;
@@ -64,7 +66,7 @@ export const FirstYears = styled.div`
 
     .text p {
         margin: 1rem;
-        font-size: 1.5rem;
+        font-size: 100%;
         color: #fff;
     }
 
@@ -84,6 +86,7 @@ export const StartOfKart = styled.div`
     }
 
     .title h1 {
+        font-family: "League Gothic", sans-serif;
         position: absolute;
         padding-left: 1rem;
         letter-spacing: 0.2rem;
@@ -105,7 +108,7 @@ export const StartOfKart = styled.div`
 
     .text p {
         margin: 1rem;
-        font-size: 1.5rem;
+        font-size: 100%;
         color: #fff;
     }
 
@@ -116,17 +119,124 @@ export const StartOfKart = styled.div`
 `;
 
 export const Toleman = styled.div`
-    .title_images {
-        position: relative;
+    width: 100%;
+
+    .images {
         display: flex;
+        align-items: center;
         flex-direction: column;
     }
 
-    .title_images .icon {
+    .images .icon {
         width: 20%;
     }
 
-    .title_images .car {
-        width: 15%;
+    .images .car {
+        margin-top: -1rem;
+        width: 40%;
+    }
+
+    .text {
+        display: flex;
+        justify-content: content;
+        color: #fff;
+    }
+
+    .text p {
+        padding: 0 2rem;
+        font-size: 100%;
+    }
+`;
+
+export const Lotus = styled.div`
+    width: 100%;
+
+    .images {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .images .icon {
+        margin-top: 1rem;
+        width: 20%;
+    }
+
+    .images .car {
+        margin-top: -1rem;
+        width: 40%;
+    }
+
+    .text {
+        display: flex;
+        justify-content: content;
+        color: #fff;
+    }
+
+    .text p {
+        padding: 0 2rem;
+        font-size: 100%;
+    }
+`;
+
+export const McLaren = styled.div`
+    width: 100%;
+
+    .images {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .images .icon {
+        margin-top: 1rem;
+        width: 20%;
+    }
+
+    .images .car {
+        margin-top: -1rem;
+        width: 40%;
+    }
+
+    .text {
+        display: flex;
+        justify-content: content;
+        color: #fff;
+    }
+
+    .text p {
+        padding: 0 2rem;
+        font-size: 100%;
+    }
+`;
+
+export const Williams = styled.div`
+    width: 100%;
+
+    .images {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .images .icon {
+        margin-top: 1rem;
+        width: 20%;
+    }
+
+    .images .car {
+        margin-top: 1rem;
+        width: 40%;
+    }
+
+    .text {
+        display: flex;
+        justify-content: content;
+        color: #fff;
+    }
+
+    .text p {
+        padding: 0 2rem;
+        font-size: 100%;
     }
 `;

@@ -22,7 +22,10 @@ const Header = () => {
                     />
                 </a>
 
-                <a href="/history">História</a>
+                <section className="icons">
+                    <a href="/history">História</a>
+                    <a href="/idol">Fora das Pistas</a>
+                </section>
             </header>
         </Menu>
     );
