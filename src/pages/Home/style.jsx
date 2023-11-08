@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Aspas from "../../assets/images/aspas.png";
-import detailYellow from "../../assets/images/detailYellow.jpg";
-import detailGeneral from "../../assets/images/detail-general.png";
+import Aspas from "assets/images/aspas.png";
+import detailYellow from "assets/images/detailYellow.jpg";
+import detailGeneral from "assets/images/detail-general.png";
 
 export const Content = styled.div`
     .title_rotative {

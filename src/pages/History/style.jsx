@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import detailGeneral from "../../assets/images/detail-general.png";
-import detailYellow from "../../assets/images/detailYellow.jpg";
-import detailBlue from "../../assets/images/detailBlue.jpg";
+import detailGeneral from "assets/images/detail-general.png";
+import detailYellow from "assets/images/detailYellow.jpg";
+import detailBlue from "assets/images/detailBlue.jpg";
 
 export const Container = styled.div`
     .title_page {

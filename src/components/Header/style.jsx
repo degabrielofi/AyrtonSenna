@@ -38,15 +38,6 @@ export const Menu = styled.div`
         transition: ease 0.5s;
     }
 
-    header ul li button {
-        width: 8rem;
-        height: 3rem;
-        background: var(--button-background-color);
-        border-radius: 1rem;
-        border: none;
-        cursor: pointer;
-    }
-
     header .icons {
         color: #ffffff;
     }

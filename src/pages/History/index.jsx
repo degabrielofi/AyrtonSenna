@@ -13,7 +13,6 @@ import Senna from "assets/images/AyrtonSennaHistory.jpeg";
 import SennaChildren from "assets/images/Senna's Children.png";
 import StartKart from "assets/images/StartOfKart.png";
 import data from "assets/data/text.json";
-import useLocalStorage from "use-local-storage";
 import TolemanIcon from "assets/images/toleman_logo.png";
 import TolemanCar from "assets/images/Senna's Toleman.png";
 import LotusIcon from "assets/images/lotus_logo.png";
@@ -24,21 +23,9 @@ import WilliamsIcon from "assets/images/williams_logo.png";
 import WilliamsCar from "assets/images/Senna's Williams.png";
 
 const History = () => {
-    const [lightMode, setLightMode] = useLocalStorage(
-        "theme" ? "light-mode" : "dark-mode"
-    );
     return (
         <Container>
-            <Header>
-                <section
-                    className="button-dark"
-                    onClick={() => setLightMode(!lightMode)}
-                    name="theme"
-                    id="theme"
-                >
-                    <i className={lightMode ? "fas fa-moon" : "fas fa-sun"}></i>
-                </section>
-            </Header>
+            <Header />
             <div className="title_page">
                 <img className="AyrtonSenna" src={Senna} alt="" />
                 <h1>O PILOTO</h1>
