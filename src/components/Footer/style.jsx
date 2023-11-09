@@ -76,7 +76,7 @@ export const Container = styled.div`
         font-weight: 400;
     }
 
-    @media screen {
+    @media (max-width: 600px) {
         .links {
             align-items: center;
             flex-direction: column;
