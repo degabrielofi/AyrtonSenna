@@ -5,21 +5,20 @@ export const Menu = styled.div`
         cursor: pointer;
     }
 
-    i {
-        color: #fff;
-    }
-
     header {
+        display: flex;
+        justify-content: space-between;
         background-color: #09447c;
         padding: 1rem 2rem;
         height: 20%;
-        display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
     header .logo {
-        position: relative;
+        text-align: center;
+    }
+
+    header .logo img {
         max-width: 150px;
     }
 
@@ -43,7 +42,8 @@ export const Menu = styled.div`
     }
 
     header .icons i {
-        margin: 0.1rem;
+        color: #ffff;
+        margin: 0 0.2rem;
     }
 
     header .navigation {
@@ -56,6 +56,9 @@ export const Menu = styled.div`
         display: none;
     }
 
-    .links {
+    .links a {
+        text-decoration: none;
+        margin: 0 1rem;
+        color: #ffff;
     }
 `;

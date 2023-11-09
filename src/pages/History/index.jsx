@@ -21,6 +21,7 @@ import McLarenIcon from "assets/images/mclaren_logo.png";
 import McLarenCar from "assets/images/Senna's McLaren.png";
 import WilliamsIcon from "assets/images/williams_logo.png";
 import WilliamsCar from "assets/images/Senna's Williams.png";
+import Footer from "components/Footer";
 
 const History = () => {
     return (
@@ -141,6 +142,8 @@ const History = () => {
                     </p>
                 </section>
             </Williams>
+            <br />
+            <Footer />
         </Container>
     );
 };

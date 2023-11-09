@@ -1,5 +1,5 @@
 import React from "react";
-import Image_logo from "../../assets/images/signature.png";
+import signatureImage from "../../assets/images/signature.png";
 import { Menu } from "./style";
 
 const Header = () => {
@@ -7,24 +7,46 @@ const Header = () => {
         <Menu>
             <header>
                 <div className="icons">
-                    <i className="fab fa-facebook"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-instagram"></i>
-                    <i className="fab fa-youtube"></i>
+                    <a target="--blank" href="https://github.com/degabrielofi">
+                        <i className="fab fa-github"></i>
+                    </a>
+                    <a
+                        target="--blank"
+                        href="https://www.instagram.com/degabrielofi_/"
+                    >
+                        <i className="fab fa-instagram"></i>
+                    </a>
+                    <a
+                        target="--blank"
+                        href="https://www.linkedin.com/in/degabrielofi/"
+                    >
+                        <i className="fab fa-linkedin"></i>
+                    </a>
+                    <a target="--blank" href="https://twitter.com/degabrielofi">
+                        <i className="fab fa-twitter"></i>
+                    </a>
                 </div>
 
-                <a href="/">
-                    <img
-                        width="100%"
-                        src={Image_logo}
-                        className="logo"
-                        alt="icon"
-                    />
+                <a href="/" className="logo">
+                    <img src={signatureImage} alt="icon" />
                 </a>
 
-                <section className="icons">
-                    <a href="/history">História</a>
-                    <a href="/idol">Fora das Pistas</a>
+                <section className="links">
+                    {window.location.pathname !== "/" ? (
+                        <a href="/">Home</a>
+                    ) : (
+                        ""
+                    )}
+                    {window.location.pathname !== "/history" ? (
+                        <a href="/history">História</a>
+                    ) : (
+                        ""
+                    )}
+                    {window.location.pathname !== "/idol" ? (
+                        <a href="/idol">Fora das Pistas</a>
+                    ) : (
+                        ""
+                    )}
                 </section>
             </header>
         </Menu>

@@ -27,16 +27,22 @@ const Footer = () => {
                 </section>
 
                 <section className="social">
-                    <a href="">
-                        <i className="fab fa-facebook"></i>
-                    </a>
-                    <a href="">
-                        <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="">
+                    <a target="--blank" href="https://github.com/degabrielofi">
                         <i className="fab fa-github"></i>
                     </a>
-                    <a href="">
+                    <a
+                        target="--blank"
+                        href="https://www.instagram.com/degabrielofi_/"
+                    >
+                        <i className="fab fa-instagram"></i>
+                    </a>
+                    <a
+                        target="--blank"
+                        href="https://www.linkedin.com/in/degabrielofi/"
+                    >
+                        <i className="fab fa-linkedin"></i>
+                    </a>
+                    <a target="--blank" href="https://twitter.com/degabrielofi">
                         <i className="fab fa-twitter"></i>
                     </a>
                 </section>
