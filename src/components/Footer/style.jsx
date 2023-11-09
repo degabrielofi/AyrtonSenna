@@ -22,19 +22,42 @@ export const Container = styled.div`
 
     .links {
         display: flex;
-        width: 100%;
         justify-content: center;
+        width: 100%;
     }
 
     .links a {
+        width: 50%;
+        margin: 0 1rem;
         text-decoration: none;
-        margin: 1rem;
-        padding: 1.5vw 5%;
+    }
+
+    .links a img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .links a h4 {
+        position: relative;
+        text-align: center;
+        margin: -1rem 3rem;
+        padding: 1vw 5%;
         border: 1px solid #fff;
+        background: #09447c;
+        color: #fff;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+    .links a:hover h4 {
+        background: #fff;
+        color: #09447c;
+        transition: all 0.5s;
     }
 
     .social {
-        margin: 2rem;
+        margin: 3rem 2rem;
     }
 
     .social a {
@@ -47,9 +70,25 @@ export const Container = styled.div`
     }
 
     .copy h4 {
-        margin: 1rem;
+        margin: 0 1rem;
         color: #fff;
         font-family: "Helvetica Neue", sans-serif;
         font-weight: 400;
+    }
+
+    @media screen {
+        .links {
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .links a {
+            width: 90%;
+            padding: 1rem;
+        }
+
+        .copy h4 {
+            font-size: 0.8rem;
+        }
     }
 `;

@@ -1,6 +1,9 @@
 import React from "react";
 import { Container } from "./style";
-import Image_logo from "../../assets/images/signature.png";
+import Image_logo from "assets/images/signature.png";
+import Home from "assets/images/home.jpg";
+import History from "assets/images/history.jpg";
+import OutTrack from "assets/images/out_track.jpg";
 
 const Footer = () => {
     return (
@@ -11,9 +14,16 @@ const Footer = () => {
                 </section>
 
                 <section className="links">
-                    <a href="/">Home</a>
-                    <a href="/history">História</a>
-                    <a href="/idol">Fora Das Pistas</a>
+                    <a href="/">
+                        <img src={Home} alt="" /> <h4>Home</h4>
+                    </a>
+                    <a href="/history">
+                        <img src={History} alt="" /> <h4>História</h4>
+                    </a>
+                    <a href="/idol">
+                        <img src={OutTrack} alt="" />
+                        <h4>Fora Das Pistas</h4>
+                    </a>
                 </section>
 
                 <section className="social">
