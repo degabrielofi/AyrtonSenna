@@ -4,7 +4,6 @@ import Header from "components/Header";
 import { Content, Mention, NumbersOfSenna } from "./style";
 import AyrtonSenna from "assets/images/AyrtonSenna.png";
 import Image_logo from "assets/images/signature.png";
-import Track from "assets/images/bgTrack.jpg";
 import Banner from "assets/images/banner.jpg";
 import Footer from "components/Footer";
 
@@ -156,23 +155,20 @@ const Home = () => {
                     </div>
                 </NumbersOfSenna>
                 <Mention>
-                    <div className="text">
-                        <h3>
-                            VENCER É O QUE <br /> IMPORTA, <br /> O RESTO É{" "}
-                            <br />
-                            CONSEQUÊNCIA.
-                        </h3>
-                        <img
-                            src={Image_logo}
-                            alt="Senna's Logo"
-                            className="logo"
-                        />
-                    </div>
-                    <img
-                        src={Track}
-                        alt="backgroundTrack"
-                        className="background"
-                    />
+                    <section className="background">
+                        <div className="text">
+                            <h3>
+                                <i className="before" /> VENCER É O QUE <br />{" "}
+                                IMPORTA, <br /> O RESTO É <br />
+                                CONSEQUÊNCIA. <i className="after" />
+                            </h3>
+                            <img
+                                src={Image_logo}
+                                alt="Senna's Logo"
+                                className="logo"
+                            />
+                        </div>
+                    </section>
                 </Mention>
             </main>
 

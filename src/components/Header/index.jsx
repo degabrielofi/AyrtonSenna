@@ -27,11 +27,13 @@ const Header = () => {
                     </a>
                 </div>
 
-                <a href="/" className="logo">
-                    <img src={signatureImage} alt="icon" />
-                </a>
+                <div className="logo">
+                    <a href="/">
+                        <img src={signatureImage} alt="icon" />
+                    </a>
+                </div>
 
-                <section className="links">
+                <div className="links">
                     {window.location.pathname !== "/" ? (
                         <a href="/">Home</a>
                     ) : (
@@ -47,7 +49,7 @@ const Header = () => {
                     ) : (
                         ""
                     )}
-                </section>
+                </div>
             </header>
         </Menu>
     );

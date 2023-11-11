@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Aspas from "assets/images/aspas.png";
 import detailYellow from "assets/images/detailYellow.jpg";
 import detailGeneral from "assets/images/detail-general.png";
+import Track from "assets/images/bgTrack.jpg";
 
 export const Content = styled.div`
     .title_rotative {
@@ -32,47 +33,6 @@ export const Content = styled.div`
         margin-top: -40%;
         z-index: -10;
         content: url(${detailGeneral});
-    }
-`;
-
-export const Mention = styled.div`
-    .text {
-        margin: 5% 15%;
-        position: absolute;
-    }
-
-    .text h3 {
-        font-family: "League Gothic", sans-serif;
-        color: #fff;
-        font-size: 4rem;
-    }
-
-    .text .logo {
-        margin-left: 20%;
-        width: 30%;
-    }
-
-    .background {
-        width: 100%;
-        height: 100%;
-    }
-
-    .text h3:before {
-        margin: -5% -10% 0%;
-        width: 5%;
-        content: url(${Aspas});
-        position: absolute;
-        transform: rotate(180deg);
-
-        display: block;
-    }
-
-    .text h3:after {
-        margin: -10% 50% 0%;
-        width: 5%;
-        content: url(${Aspas});
-        position: absolute;
-        display: block;
     }
 `;
 
@@ -137,5 +97,52 @@ export const NumbersOfSenna = styled.div`
 
     .content .numbers ul li .text {
         color: #1b9c4b;
+    }
+`;
+
+export const Mention = styled.div`
+    .background {
+        width: 100%;
+        background: url(${Track}) center bottom/cover no-repeat;
+    }
+
+    .text {
+        position: relative;
+        margin: 0 15%;
+    }
+
+    .text h3 {
+        font-family: "League Gothic", sans-serif;
+        padding: 5%;
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .text .logo {
+        margin-left: 20%;
+        width: 20%;
+    }
+
+    .text h3 .before {
+        margin: 0 -10% 0%;
+        width: 10%;
+        content: url(${Aspas});
+        position: absolute;
+        transform: rotate(180deg);
+        display: block;
+    }
+
+    .text h3 .after {
+        margin: -10% 30%;
+        width: 10%;
+        content: url(${Aspas});
+        position: absolute;
+        display: block;
+    }
+
+    @media (max-width: 600px) {
+        .text h3 {
+            font-size: 2rem;
+        }
     }
 `;
