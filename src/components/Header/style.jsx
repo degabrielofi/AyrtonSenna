@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const Menu = styled.div`
+    .headerAll {
+        background-color: #09447c;
+    }
+
     header {
         display: flex;
         justify-content: space-between;
-        background-color: #09447c;
         padding: 1rem 2rem;
         align-items: center;
     }
@@ -21,11 +24,108 @@ export const Menu = styled.div`
     header .icons i {
         color: #ffff;
         margin: 0 0.2rem;
+        transition: all 1s;
+    }
+
+    header .icons i:hover {
+        transform: scale(1.2);
+        transition: all 0.5s;
     }
 
     .links a {
         text-decoration: none;
         margin: 0 1rem;
         color: #ffff;
+    }
+
+    .links #checkbox {
+        display: none;
+    }
+
+    .links .toggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition-duration: 1s;
+    }
+
+    .links .bars {
+        width: 100%;
+        height: 4px;
+        background-color: #ffff;
+        border-radius: 4px;
+    }
+
+    .links #bar2 {
+        transition-duration: 1s;
+    }
+
+    .links #bar1,
+    #bar3 {
+        width: 70%;
+    }
+
+    .links #checkbox:checked + .toggle .bars {
+        position: absolute;
+        transition-duration: 1s;
+    }
+
+    .links #checkbox:checked + .toggle #bar2 {
+        transform: scaleX(0);
+        transition-duration: 1s;
+    }
+
+    .links #checkbox:checked + .toggle #bar1 {
+        width: 100%;
+        transform: rotate(45deg);
+        transition-duration: 1s;
+    }
+
+    .links #checkbox:checked + .toggle #bar3 {
+        width: 100%;
+        transform: rotate(-45deg);
+        transition-duration: 1s;
+    }
+
+    .links #checkbox:checked + .toggle {
+        transition-duration: 1s;
+        transform: rotate(180deg);
+    }
+
+    .links nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 0rem;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .navbar a {
+        opacity: 0;
+    }
+
+    .navbar-active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 5rem;
+        transition: all ease-in-out 1s;
+    }
+
+    .navbar-active a {
+        margin: 0.2rem;
+        text-decoration: none;
+        color: #ffff;
+        opacity: 1;
+        transition: all 2s;
     }
 `;
