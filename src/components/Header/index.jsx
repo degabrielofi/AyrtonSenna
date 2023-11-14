@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import signatureImage from "../../assets/images/signature.png";
+import signatureImage from "assets/images/signature.png";
 import { Menu } from "./style";
 
 const Header = () => {

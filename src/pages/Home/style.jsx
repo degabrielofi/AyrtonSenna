@@ -21,6 +21,7 @@ export const Content = styled.div`
     }
 
     .title_rotative h1 {
+        font-family: "League Gothic", sans-serif;
         position: absolute;
         letter-spacing: 0.2rem;
         line-height: 1rem;
@@ -28,11 +29,24 @@ export const Content = styled.div`
         color: #fff;
     }
 
-    .title_rotative i {
+    .title_rotative .detail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .title_rotative .detail i {
+        position: absolute;
         width: 35%;
-        margin-top: -40%;
-        z-index: -10;
         content: url(${detailGeneral});
+        z-index: -1;
+    }
+
+    @media (max-width: 600px) {
+        .title_rotative h1 {
+            font-size: 2rem;
+        }
     }
 `;
 
@@ -98,6 +112,27 @@ export const NumbersOfSenna = styled.div`
     .content .numbers ul li .text {
         color: #1b9c4b;
     }
+
+    @media (max-width: 600px) {
+        margin: 1.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .content .numbers .title h1 {
+            font-size: 3rem;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .content .numbers .title h1 {
+            font-size: 2.5rem;
+        }
+    }
 `;
 
 export const Mention = styled.div`
@@ -143,6 +178,20 @@ export const Mention = styled.div`
     @media (max-width: 600px) {
         .text h3 {
             font-size: 2rem;
+        }
+
+        .text h3 .before {
+            margin: 0 -12% 0%;
+        }
+
+        .text h3 .after {
+            margin: -15% 50%;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .text h3 .after {
+            margin: -15% 60%;
         }
     }
 `;

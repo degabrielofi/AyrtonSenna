@@ -10,7 +10,7 @@ import {
 } from "./style";
 import Header from "components/Header";
 import Senna from "assets/images/AyrtonSennaHistory.jpeg";
-import SennaChildren from "assets/images/Senna's Children.png";
+import SennaChild from "assets/images/Senna Child.png";
 import StartKart from "assets/images/StartOfKart.png";
 import data from "assets/data/text.json";
 import TolemanIcon from "assets/images/toleman_logo.png";
@@ -29,9 +29,12 @@ const History = () => {
             <Header />
             <div className="title_page">
                 <img className="AyrtonSenna" src={Senna} alt="" />
-                <h1>O PILOTO</h1>
-
-                <i></i>
+                <h1>
+                    O PILOTO
+                    <div className="detail">
+                        <i />
+                    </div>
+                </h1>
             </div>
 
             <FirstYears>
@@ -45,7 +48,7 @@ const History = () => {
                         {data.Children.text} <br /> <br />
                         {data.Children.textTwo}
                     </p>
-                    <img src={SennaChildren} alt="" />
+                    <img src={SennaChild} alt="" />
                 </div>
             </FirstYears>
 

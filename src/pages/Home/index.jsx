@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Background from "components/Background";
 import Header from "components/Header";
 import { Content, Mention, NumbersOfSenna } from "./style";
 import AyrtonSenna from "assets/images/AyrtonSenna.png";
@@ -63,9 +62,10 @@ const Home = () => {
                     <span className="txt-rotate">
                         <span className="wrap">{text}</span>
                     </span>
+                    <div className="detail">
+                        <i />
+                    </div>
                 </h1>
-
-                <i></i>
             </div>
 
             <main>
