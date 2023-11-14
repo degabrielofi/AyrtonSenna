@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="MyLinks" src="./assets/GitHub/Mockup.png" width="70%"> 
+  <img alt="MyLinks" src="./src/assets/GitHub/Mockup.png" width="70%"> 
   </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 <br>
 <p align="center">
-  <img alt="MyLinks" src="./assets/GitHub/GifPage.gif" width="70%"> 
+  <img alt="MyLinks" src="./src/assets/GitHub/GifPage.gif" width="70%"> 
   </p>
 
 # 🔗 Acesse o site com o link abaixo.
@@ -81,5 +81,5 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 ##
 
 <p align="center">
-  <img src="./assets/GitHub/Helmet.png" width="20%">
+  <img src="./assets/src/GitHub/Helmet.png" width="20%">
   </p>
