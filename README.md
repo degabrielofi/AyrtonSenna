@@ -81,5 +81,5 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 ##
 
 <p align="center">
-  <img src="./assets/src/GitHub/Helmet.png" width="20%">
+  <img src="./src/assets/GitHub/Helmet.png" width="20%">
   </p>
