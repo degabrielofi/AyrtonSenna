@@ -97,6 +97,11 @@ export const FirstYears = styled.div`
             font-size: 4rem;
         }
 
+        .title i {
+            width: 100%;
+            height: 50px;
+        }
+
         .text {
             display: flex;
             flex-direction: column;

@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="MyLinks" src="./assets/GitHub/Mockup.png" width="70%"> 
+  </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/degabrielofi/AyrtonSenna?color=61dbfd">
 
-## Available Scripts
+  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/degabrielofi/AyrtonSenna?color=61dbfd">
 
-In the project directory, you can run:
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/degabrielofi/AyrtonSenna?color=61dbfd">
+</p>
 
-### `npm start`
+# :clipboard: Sobre o projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Neste site, você encontrará uma detalhada linha do tempo da carreira de Ayrton Senna, desde seus primeiros anos no kart até sua ascensão meteórica na Fórmula 1. Você poderá mergulhar em momentos icônicos, como suas vitórias em corridas lendárias, batalhas épicas com seus rivais e seus triunfos nos três campeonatos mundiais conquistados em 1988, 1990 e 1991.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**⚠️ Atenção:** <br>
+Este site é uma iniciativa independente criada por fãs de Ayrton Senna e não possui nenhuma afiliação oficial com a família de Senna ou com organizações relacionadas. Todo o conteúdo apresentado neste site é baseado em informações disponíveis publicamente.
 
-### `npm test`
+Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
+<p align="center">
+  <img alt="MyLinks" src="./assets/GitHub/GifPage.gif" width="70%"> 
+  </p>
 
-### `npm run build`
+# 🔗 Acesse o site com o link abaixo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   [Ayrton Senna | Sua História](https://ayrtonsennaf1.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :computer: Tecnologias utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-### `npm run eject`
+-   [React.js](https://pt-br.reactjs.org/)
+-   [Styled-Components](https://styled-components.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Instalando <AyrtonSenna>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para instalar o projeto, siga estas etapas:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🖨️ #Clonando o repositório do Github:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+$ git clone https://github.com/degabrielofi/AyrtonSenna
+```
 
-## Learn More
+🗃️ #Instalação de packages:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ npm i .
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✅ #Inicializar projeto:
 
-### Code Splitting
+```
+$ npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Colaboradores
 
-### Analyzing the Bundle Size
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://avatars.githubusercontent.com/u/92073289?v=4" width="100px;" alt="Foto do degabrielofi no GitHub"/><br>
+        <sub>
+          <b>Gabriel Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### Making a Progressive Web App
+## 📝 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-### Advanced Configuration
+##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <img src="./assets/GitHub/Helmet.png" width="20%">
+  </p>

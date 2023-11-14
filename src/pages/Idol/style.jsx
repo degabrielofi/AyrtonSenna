@@ -96,9 +96,13 @@ export const OutTracks = styled.div`
 
     @media (max-width: 600px) {
         .title h1 {
-            font-size: 4rem;
+            font-size: 3rem;
         }
 
+        .title i {
+            width: 100%;
+            height: 50px;
+        }
         .text {
             display: flex;
             flex-direction: column;
@@ -155,7 +159,12 @@ export const Hero = styled.div`
 
     @media (max-width: 600px) {
         .title h1 {
-            font-size: 4rem;
+            font-size: 2.5rem;
+        }
+
+        .title i {
+            width: 100%;
+            height: 50px;
         }
     }
 `;
@@ -201,7 +210,12 @@ export const Legacy = styled.div`
 
     @media (max-width: 600px) {
         .title h1 {
-            font-size: 4rem;
+            font-size: 2.5rem;
+        }
+
+        .title i {
+            width: 100%;
+            height: 50px;
         }
 
         .text {
