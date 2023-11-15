@@ -172,7 +172,6 @@ const Home = () => {
                 </Mention>
             </main>
 
-            {/*   <Background /> */}
             <Footer />
         </Content>
     );
