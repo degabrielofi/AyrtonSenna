@@ -4,8 +4,11 @@ import Image_logo from "assets/images/signature.png";
 import Home from "assets/images/home.jpg";
 import History from "assets/images/history.jpg";
 import OutTrack from "assets/images/out_track.jpg";
+import DeGabrielDEV from "assets/images/DeGabrielDEV.png";
 
 const Footer = () => {
+    let CurrentDate = new Date().getFullYear();
+
     return (
         <Container>
             <footer>
@@ -48,7 +51,17 @@ const Footer = () => {
                 </section>
 
                 <section className="copy">
-                    <h4>© 2023 @degabrielofi_. All Rights Reserved</h4>
+                    <h4>
+                        © {CurrentDate} @degabrielofi_ - All Rights Reserved
+                    </h4>
+                    <div className="degabrieldev">
+                        <a
+                            href="https://degabrielofi.vercel.app/"
+                            target="--blank"
+                        >
+                            <img src={DeGabrielDEV} alt="DeGabrielDEV" />
+                        </a>
+                    </div>
                 </section>
             </footer>
         </Container>

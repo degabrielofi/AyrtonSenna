@@ -69,11 +69,29 @@ export const Container = styled.div`
         color: #fff;
     }
 
+    .copy {
+        width: 100%;
+        margin: 1rem;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .copy h4 {
-        margin: 0 1rem;
+        margin-left: 1rem;
         color: #fff;
         font-family: "Helvetica Neue", sans-serif;
         font-weight: 400;
+    }
+
+    .degabrieldev {
+        margin-right: 1rem;
+        width: 20%;
+    }
+
+    .degabrieldev img {
+        width: 100%;
     }
 
     @media (max-width: 600px) {
@@ -88,7 +106,11 @@ export const Container = styled.div`
         }
 
         .copy h4 {
-            font-size: 0.8rem;
+            font-size: 0.5rem;
+        }
+
+        .degabrieldev img {
+            width: 120%;
         }
     }
 `;
